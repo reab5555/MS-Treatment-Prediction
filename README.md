@@ -16,6 +16,8 @@ This project aims to evaluate the effectiveness of various MS treatments using a
 
 ### Data Collection
 
+<img src="appendix/MS_DATA.png" width="700" alt="alt text">
+
 The dataset comprises 528 MS patients from Hadassah Medical Center. It includes detailed demographic and clinical information, such as:
 
 - **Age, Gender, and Ethnicity:** Key demographic variables that may influence disease progression and treatment response.
