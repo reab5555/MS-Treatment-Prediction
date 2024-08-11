@@ -16,7 +16,7 @@ This project aims to evaluate the effectiveness of various MS treatments using a
 
 ### Data Collection
 
-<img src="appendix/MS_DATA.png" width="700" alt="alt text">
+<img src="appendix/MS_DATA.png" width="1000" alt="alt text">
 
 The dataset comprises 528 MS patients from Hadassah Medical Center. It includes detailed demographic and clinical information, such as:
 
