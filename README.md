@@ -49,13 +49,30 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
 - **Treatment Response Rates:** Analyzed the response rates to different treatments, identifying which therapies were most effective for specific patient subgroups.
 - **Correlation Analysis:** Investigated the relationships between various features, such as age, gender, MS type, and EDSS, to inform feature selection for the predictive models.
 
-<p align="left">
-  <img src="appendix/MS_DIST_EDSS.png" width="150" />
-  <img src="appendix/MS_DIST_LESION.png" width="150" />
-  <img src="appendix/MS_DIST_WB.png" width="150" />
-  <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="200" />
-  <img src="appendix/MS_TR_EDSS.png" width="200" />
-</p>
+<table>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td><img src="appendix/MS_DIST_EDSS.png" width="150" /></td>
+          <td><img src="appendix/MS_DIST_LESION.png" width="150" /></td>
+          <td><img src="appendix/MS_DIST_WB.png" width="150" /></td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td><img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="200" /></td>
+        </tr>
+        <tr>
+          <td><img src="appendix/MS_TR_EDSS.png" width="200" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
 
 ### Predictive Modeling
 
