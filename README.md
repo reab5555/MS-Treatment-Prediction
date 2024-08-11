@@ -27,6 +27,8 @@ The dataset comprises 528 MS patients from Hadassah Medical Center. It includes 
 
 ### Data Cleaning and Preprocessing
 
+<img src="appendix/MS PRES - Page 2.png" width="1000" alt="alt text">
+
 To ensure the reliability and accuracy of the analysis, several data cleaning and preprocessing steps were undertaken:
 
 - **Feature Selection:** Features with high collinearity were removed to prevent multicollinearity issues in the models. Features with too few samples (N < 500) were also excluded to avoid skewed analysis.
