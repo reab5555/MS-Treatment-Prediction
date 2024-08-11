@@ -119,25 +119,18 @@ In addition to predicting EDSS, the project also focused on identifying the most
       <table>
         <img src="appendix/MS_RESPOND_EDSS.png" width="400" />
         <img src="appendix/MS_RESPOND_TYPE.png" width="300" />
+        <img src="appendix/treatment_ms_type_heatmap_significant.png" width="500" />
       </table>
     </td>
-
 
 <table>
   <tr>
     <td>
       <table>
         <img src="appendix/treatment_age_response_significant.png" width="500" />
-        <img src="appendix/treatment_edss_response_significant.png" width="500" />
+        <img src="appendix/treatment_edss_response_significant.png" width="400" />
       </table>
     </td>
-    <td>
-      <table>
-        <img src="appendix/treatment_ms_type_heatmap_significant.png" width="500" />
-      </table>
-    </td>
-  </tr>
-</table>
 
 ### Model Evaluation and Validation
 
