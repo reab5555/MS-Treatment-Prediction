@@ -1,7 +1,5 @@
 # Multiple Sclerosis Treatment Effectiveness
 
-## Introduction
-
 Multiple Sclerosis (MS) is a chronic autoimmune disease that affects the central nervous system, leading to a wide range of physical and cognitive disabilities. Effective management of MS often requires personalized treatment strategies tailored to individual patient characteristics, including disease type, progression, and response to treatment.   
 
 This project aims to evaluate the effectiveness of various MS treatments using a dataset of 528 patients from Hadassah Medical Center. We leverage machine learning techniques to predict patient outcomes and identify the most effective treatment combinations for different patient profiles.
