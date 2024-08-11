@@ -82,7 +82,7 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
     </td>
     <td>
       <table>
-        <img src="appendix/MS_EDSS_FEATURES.png" width="380" />
+        <img src="appendix/MS_EDSS_FEATURES.png" width="400" />
       </table>
     </td>
   </tr>
