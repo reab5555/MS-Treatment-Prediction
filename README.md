@@ -27,7 +27,7 @@ The dataset comprises 528 MS patients from Hadassah Medical Center. It includes 
 
 ### Data Cleaning and Preprocessing
 
-<img src="appendix/MS PRES - Page 2.png" width="1000" alt="alt text">
+<img src="appendix/MS PRES - Page 2.png" width="800" alt="alt text">
 
 To ensure the reliability and accuracy of the analysis, several data cleaning and preprocessing steps were undertaken:
 
