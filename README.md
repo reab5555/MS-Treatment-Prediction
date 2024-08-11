@@ -62,6 +62,7 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
       <table>
           <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="200" />
           <img src="appendix/MS_TR_EDSS.png" width="200" />
+          <img src="appendix/MS_EDSS_TYPE.png" width="600" />
       </table>
     </td>
   </tr>
@@ -78,7 +79,6 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
     <td>
       <table>
         <img src="appendix/MS_DT_EDSS.png" width="600" />
-        <img src="appendix/MS_EDSS_TYPE.png" width="600" />
       </table>
     </td>
     <td>
