@@ -65,8 +65,8 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
 
 In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients. Various machine learning models were explored, including:
 
-1. **Decision Tree Classifier:** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
-2. **Gradient Boosting:** Provided competitive performance but with increased computational complexity.
+1. **Decision Tree Classifier** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
+2. **Gradient Boosting** Provided competitive performance but with increased computational complexity.
 3. **Random Forest:** Offered robustness through ensemble learning but was prone to overfitting with smaller treatment subgroups.
 4. **Support Vector Machine (SVM):** Effective for certain patient subgroups but less interpretable.
 5. **K-Nearest Neighbors (KNN):** Simple and effective for certain cases, but less scalable with increasing dataset size.
@@ -94,18 +94,3 @@ This project demonstrates the potential of machine learning in improving the man
 - **Expanding the Dataset:** Future research could benefit from a larger and more diverse dataset, including patients from multiple medical centers, to improve the generalizability of the findings.
 - **Incorporating Additional Features:** Including more granular clinical data, such as MRI findings and genetic markers, could enhance the predictive power of the models.
 - **Advanced Modeling Techniques:** Exploring advanced machine learning techniques, such as deep learning or ensemble methods, could further improve prediction accuracy and uncover complex patterns in the data.
-
-## Repository Structure
-
-- **/data**: Contains the cleaned dataset used for analysis. [Note: The actual data is not included due to privacy concerns.]
-- **/models**: Includes the machine learning models and evaluation scripts, with a focus on Decision Trees, Gradient Boosting, and Random Forest models.
-- **/notebooks**: Jupyter notebooks containing exploratory data analysis, model training, and evaluation.
-- **/reports**: Detailed reports on the findings, including visualizations and summaries of model performance.
-
-## Installation and Usage
-
-To replicate the analysis and models in this project, follow these steps:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/ms-treatment-effectiveness.git
