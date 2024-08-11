@@ -62,7 +62,6 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
       <table>
           <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="200" />
           <img src="appendix/MS_TR_EDSS.png" width="200" />
-          <img src="appendix/MS_EDSS_TYPE.png" width="600" />
       </table>
     </td>
   </tr>
@@ -118,8 +117,9 @@ In addition to predicting EDSS, the project also focused on identifying the most
   <tr>
     <td>
       <table>
-        <img src="appendix/MS_RESPOND_EDSS.png" width="500" />
-        <img src="appendix/MS_RESPOND_TYPE.png" width="500" />
+        <img src="appendix/MS_RESPOND_EDSS.png" width="400" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="400" />
+        <img src="appendix/MS_EDSS_TYPE.png" width="400" />
       </table>
     </td>
 
