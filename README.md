@@ -16,8 +16,6 @@ This project aims to evaluate the effectiveness of various MS treatments using a
 
 ### Data Collection
 
-<img src="appendix/MS_DATA.png" width="1000" alt="alt text">
-
 The dataset comprises 528 MS patients from Hadassah Medical Center. It includes detailed demographic and clinical information, such as:
 
 - **Age, Gender, and Ethnicity:** Key demographic variables that may influence disease progression and treatment response.
@@ -25,15 +23,17 @@ The dataset comprises 528 MS patients from Hadassah Medical Center. It includes 
 - **Disability Levels:** Measured using the Expanded Disability Status Scale (EDSS), a method of quantifying disability in MS and monitoring changes in the level of disability over time.
 - **Treatment History:** Information on the types of treatments administered, including disease-modifying therapies (DMTs), immunosuppressants, and other medications.
 
-### Data Cleaning and Preprocessing
+<img src="appendix/MS_DATA.png" width="1000" alt="alt text">
 
-<img src="appendix/MS PRES - Page 2.png" width="800" alt="alt text">
+### Data Cleaning and Preprocessing
 
 To ensure the reliability and accuracy of the analysis, several data cleaning and preprocessing steps were undertaken:
 
 - **Feature Selection:** Features with high collinearity were removed to prevent multicollinearity issues in the models. Features with too few samples (N < 500) were also excluded to avoid skewed analysis.
 - **Spearman Correlations:** Correlation analysis was performed to retain only the most relevant and current measurements, reducing redundancy and improving model performance.
 - **Handling Missing Data:** Missing values were imputed using appropriate statistical methods, ensuring that the dataset was complete for model training and evaluation.
+
+<img src="appendix/MS PRES - Page 2.png" width="800" alt="alt text">
 
 ### Final Dataset
 
