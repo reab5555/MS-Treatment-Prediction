@@ -60,8 +60,8 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
     </td>
     <td>
       <table>
-          <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="190" />
-          <img src="appendix/MS_TR_EDSS.png" width="190" />
+          <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="185" />
+          <img src="appendix/MS_TR_EDSS.png" width="185" />
       </table>
     </td>
   </tr>
