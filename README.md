@@ -1,3 +1,5 @@
+<img src="appendix/icon.webp" width="100" alt="alt text">
+
 # Multiple Sclerosis Treatment Effectiveness Prediction
 
 Multiple Sclerosis (MS) is a chronic autoimmune disease that affects the central nervous system, leading to a wide range of physical and cognitive disabilities. Effective management of MS often requires personalized treatment strategies tailored to individual patient characteristics, including disease type, progression, and response to treatment.   
