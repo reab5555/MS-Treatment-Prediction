@@ -50,15 +50,15 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
 - **Correlation Analysis:** Investigated the relationships between various features, such as age, gender, MS type, and EDSS, to inform feature selection for the predictive models.
 
 <p align="left">
-  <img src="appendix/MS_DIST_EDSS.png" width="300" />
-  <img src="appendix/MS_DIST_LESION.png" width="300" />
-  <img src="appendix/MS_DIST_WB.png" width="300" />
+  <img src="appendix/MS_DIST_EDSS.png" width="200" />
+  <img src="appendix/MS_DIST_LESION.png" width="200" />
+  <img src="appendix/MS_DIST_WB.png" width="200" />
 </p>
 
 
 <p align="left">
-  <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="300" />
-  <img src="appendix/MS_TR_EDSS.png" width="300" />
+  <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="200" />
+  <img src="appendix/MS_TR_EDSS.png" width="200" />
 </p>
 
 ### Predictive Modeling
