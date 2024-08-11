@@ -130,7 +130,7 @@ In addition to predicting EDSS, the project also focused on identifying the most
       <table>
         <img src="appendix/treatment_age_response_significant.png" width="370" />
         <img src="appendix/treatment_edss_response_significant.png" width="370" />
-        <img src="appendix/treatment_ms_type_heatmap_significant.png" width="235" />
+        <img src="appendix/treatment_ms_type_heatmap_significant.png" width="230" />
       </table>
     </td>
   </tr>
