@@ -73,12 +73,12 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
 
 The primary goal was to predict the Expanded Disability Status Scale (EDSS) for MS patients using machine learning models. The EDSS is a crucial metric in assessing the severity of MS and guiding treatment decisions. Given the need for interpretable and clinically relevant models, a Decision Tree Regressor was selected as the primary model.
 
-
 <table>
   <tr>
     <td>
       <table>
         <img src="appendix/MS_DT_EDSS.png" width="600" />
+        <img src="appendix/MS_EDSS_TYPE.png" width="600" />
       </table>
     </td>
     <td>
@@ -112,6 +112,33 @@ In addition to predicting EDSS, the project also focused on identifying the most
 - **Key Findings:**
   - **Effective Treatment Combinations:** The models identified significant treatment combinations that were associated with better patient outcomes.
   - **Limitations:** The reliability of predictions was limited for some treatments due to the small sample size, particularly in predicting "No Response to Treatments."
+
+
+<table>
+  <tr>
+    <td>
+      <table>
+        <img src="appendix/MS_RESPOND_EDSS.png" width="500" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="500" />
+      </table>
+    </td>
+
+
+<table>
+  <tr>
+    <td>
+      <table>
+        <img src="appendix/treatment_age_response_significant.png" width="500" />
+        <img src="appendix/treatment_edss_response_significant.png" width="500" />
+      </table>
+    </td>
+    <td>
+      <table>
+        <img src="appendix/treatment_ms_type_heatmap_significant.png" width="500" />
+      </table>
+    </td>
+  </tr>
+</table>
 
 ### Model Evaluation and Validation
 
