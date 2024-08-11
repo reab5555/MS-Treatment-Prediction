@@ -53,15 +53,15 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
   <tr>
     <td>
       <table>
-          <img src="appendix/MS_DIST_EDSS.png" width="145" />
-          <img src="appendix/MS_DIST_LESION.png" width="145" />
-          <img src="appendix/MS_DIST_WB.png" width="145" />
+          <img src="appendix/MS_DIST_EDSS.png" width="140" />
+          <img src="appendix/MS_DIST_LESION.png" width="140" />
+          <img src="appendix/MS_DIST_WB.png" width="140" />
       </table>
     </td>
     <td>
       <table>
-          <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="185" />
-          <img src="appendix/MS_TR_EDSS.png" width="185" />
+          <img src="appendix/MS_EDSS_MSTYPE_DIST.png" width="180" />
+          <img src="appendix/MS_TR_EDSS.png" width="180" />
       </table>
     </td>
   </tr>
