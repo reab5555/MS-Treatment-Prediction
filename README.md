@@ -72,7 +72,7 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
 
 #### EDSS Overview
 
-<img src="appendix/edss_grafic.png" width="700" alt="alt text">
+<img src="appendix/edss_grafic.png" width="500" alt="alt text">
 
 <table>
   <tr>
