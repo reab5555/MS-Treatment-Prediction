@@ -156,8 +156,8 @@ In addition to predicting EDSS, the project also focused on identifying the most
     <td>
       <table>
         <img src="appendix/MS_RESPOND_EDSS.png" width="300" />
-        <img src="appendix/EDSS_TR.png" width="260" />
-        <img src="appendix/MS_RESPOND_TYPE.png" width="280" />
+        <img src="appendix/EDSS_TR.png" width="250" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="250" />
       </table>
     </td>
   </tr>
