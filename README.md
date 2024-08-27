@@ -67,13 +67,19 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
   </tr>
 </table>
 
-### Predictive Modeling
-
+### EDSS Predictive Modeling
 
 #### EDSS Overview
 
+The Expanded Disability Status Scale (EDSS), is commonly used to measure disability progression in multiple sclerosis (MS) patients.
+
 <img src="appendix/edss_grafic.png" width="500" alt="alt text">
 
+- EDSS (Expanded Disability Status Scale) and WB (White Blood cell count) have a strong negative correlation (-0.493), indicating that as EDSS increases, WB tends to decrease.
+- EDSS and Lesion have a moderate positive correlation (0.329), suggesting that higher EDSS scores are associated with more lesions.
+- WB and Lesion have a strong negative correlation (-0.537), implying that higher white blood cell counts are associated with fewer lesions.
+- Age has weak correlations with other variables, with the strongest being a slight positive correlation with WB (0.145).
+  
 <table>
   <tr>
     <td>
@@ -88,6 +94,26 @@ Before diving into machine learning, an extensive Exploratory Data Analysis (EDA
     </td>
   </tr>
 </table>
+
+Higher lesion counts are associated with greater disability, while higher white blood cell counts are associated with lower disability.
+
+<table>
+  <tr>
+    <td>
+      <table>
+        <img src="appendix/EDSS_Lesion.png" width="500" />
+      </table>
+    </td>
+    <td>
+      <table>
+        <img src="appendix/EDSS_WB.png" width="400" />
+      </table>
+    </td>
+  </tr>
+</table>
+
+- Patients with lower initial EDSS scores (less disability) are more likely to respond positively to treatment.
+- The effectiveness of treatment appears to decrease as the level of disability increases.
 
 #### EDSS Prediction
 
@@ -108,7 +134,6 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
   </tr>
 </table>
 
-- **Model Rationale:**
   - **Interpretable:** Decision Trees are highly interpretable, providing clear feature importance rankings, which align with clinical decision-making processes.
   - **Resistant to Overfitting:** Decision Trees are less likely to overfit on small datasets, making them suitable for the relatively limited data available.
   - **Computational Efficiency:** The simplicity of Decision Trees ensures computational efficiency, which is important in clinical settings where rapid decision-making is often required.
@@ -118,9 +143,25 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
   - Cross-validation with 6 folds was employed to ensure robustness and generalizability of the model.
   - The model achieved a Root Mean Square Error (RMSE) of ±1.4, indicating reasonable predictive accuracy within the context of clinical variability.
 
-#### Treatment Effectiveness Prediction
+### Treatment Effectiveness Prediction
 
 In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients. Various machine learning models were explored, including:
+
+#### Factors that are associated with the effectiveness of treatment:
+- Lower initial disability (EDSS) is associated with better treatment outcomes.
+- The type of MS significantly influences treatment response.
+
+<table>
+  <tr>
+    <td>
+      <table>
+        <img src="appendix/MS_RESPOND_EDSS.png" width="400" />
+        <img src="appendix/EDSS_TR.png" width="340" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="340" />
+      </table>
+    </td>
+  </tr>
+</table>
 
 1. **Decision Tree Classifier** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
 2. **Gradient Boosting** Provided competitive performance but with increased computational complexity.
@@ -131,18 +172,6 @@ In addition to predicting EDSS, the project also focused on identifying the most
 - **Key Findings:**
   - **Effective Treatment Combinations:** The models identified significant treatment combinations that were associated with better patient outcomes.
   - **Limitations:** The reliability of predictions was limited for some treatments due to the small sample size, particularly in predicting "No Response to Treatments."
-
-
-<table>
-  <tr>
-    <td>
-      <table>
-        <img src="appendix/MS_RESPOND_EDSS.png" width="400" />
-        <img src="appendix/MS_RESPOND_TYPE.png" width="340" />
-      </table>
-    </td>
-  </tr>
-</table>
 
 <table>
   <tr>
