@@ -33,7 +33,7 @@ To ensure the reliability and accuracy of the analysis, several data cleaning an
 - **Spearman Correlations:** Correlation analysis was performed to retain only the most relevant and current measurements, reducing redundancy and improving model performance.
 - **Handling Missing Data:** Missing values were imputed using appropriate statistical methods, ensuring that the dataset was complete for model training and evaluation.
 
-<img src="appendix/MS PRES - Page 2.png" width="700" alt="alt text">
+<img src="appendix/MS PRES - Page 2.png" width="600" alt="alt text">
 
 ### Final Dataset
 
