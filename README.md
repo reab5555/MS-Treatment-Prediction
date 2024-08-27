@@ -101,7 +101,7 @@ Higher lesion counts are associated with greater disability, while higher white 
   <tr>
     <td>
       <table>
-        <img src="appendix/EDSS_Lesion.png" width="400" />
+        <img src="appendix/EDSS_Lesion.png" width="300" />
       </table>
     </td>
     <td>
@@ -155,9 +155,9 @@ In addition to predicting EDSS, the project also focused on identifying the most
   <tr>
     <td>
       <table>
-        <img src="appendix/MS_RESPOND_EDSS.png" width="400" />
-        <img src="appendix/EDSS_TR.png" width="340" />
-        <img src="appendix/MS_RESPOND_TYPE.png" width="340" />
+        <img src="appendix/MS_RESPOND_EDSS.png" width="300" />
+        <img src="appendix/EDSS_TR.png" width="240" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="240" />
       </table>
     </td>
   </tr>
