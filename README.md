@@ -115,10 +115,36 @@ Higher lesion counts are associated with greater disability, while higher white 
 - Patients with lower initial EDSS scores (less disability) are more likely to respond positively to treatment.
 - The effectiveness of treatment appears to decrease as the level of disability increases.
 
+### Treatment Effectiveness Prediction
+In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
+
+#### Factors that are associated with the effectiveness of treatment:
+- Lower initial disability (EDSS) is associated with better treatment outcomes.
+- The type of MS significantly influences treatment response.
+
+<table>
+  <tr>
+    <td>
+      <table>
+        <img src="appendix/MS_RESPOND_EDSS.png" width="300" />
+        <img src="appendix/EDSS_TR.png" width="251" />
+        <img src="appendix/MS_RESPOND_TYPE.png" width="258" />
+      </table>
+    </td>
+  </tr>
+</table>
+
 #### EDSS Prediction
 
 The primary goal was to predict the Expanded Disability Status Scale (EDSS) for MS patients using machine learning models. The EDSS is a crucial metric in assessing the severity of MS and guiding treatment decisions. Given the need for interpretable and clinically relevant models, a Decision Tree Regressor was selected as the primary model.
 
+In order to predict Treatment effectiveness, various machine learning models were explored/tested, including:
+1. **Decision Tree Classifier** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
+2. **Gradient Boosting** Provided competitive performance but with increased computational complexity.
+3. **Random Forest:** Offered robustness through ensemble learning but was prone to overfitting with smaller treatment subgroups.
+4. **Support Vector Machine (SVM):** Effective for certain patient subgroups but less interpretable.
+5. **K-Nearest Neighbors (KNN):** Simple and effective for certain cases, but less scalable with increasing dataset size.
+   
 <table>
   <tr>
     <td>
@@ -142,32 +168,6 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
   - The dataset was split into training (80%) and test (20%) sets to evaluate model performance.
   - Cross-validation with 6 folds was employed to ensure robustness and generalizability of the model.
   - The model achieved a Root Mean Square Error (RMSE) of ±1.4, indicating reasonable predictive accuracy within the context of clinical variability.
-
-### Treatment Effectiveness Prediction
-In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
-
-#### Factors that are associated with the effectiveness of treatment:
-- Lower initial disability (EDSS) is associated with better treatment outcomes.
-- The type of MS significantly influences treatment response.
-
-<table>
-  <tr>
-    <td>
-      <table>
-        <img src="appendix/MS_RESPOND_EDSS.png" width="300" />
-        <img src="appendix/EDSS_TR.png" width="251" />
-        <img src="appendix/MS_RESPOND_TYPE.png" width="258" />
-      </table>
-    </td>
-  </tr>
-</table>
-
-In order to predict Treatment effectiveness, various machine learning models were explored, including:
-1. **Decision Tree Classifier** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
-2. **Gradient Boosting** Provided competitive performance but with increased computational complexity.
-3. **Random Forest:** Offered robustness through ensemble learning but was prone to overfitting with smaller treatment subgroups.
-4. **Support Vector Machine (SVM):** Effective for certain patient subgroups but less interpretable.
-5. **K-Nearest Neighbors (KNN):** Simple and effective for certain cases, but less scalable with increasing dataset size.
 
 - **Key Findings:**
   - **Effective Treatment Combinations:** The models identified significant treatment combinations that were associated with better patient outcomes.
