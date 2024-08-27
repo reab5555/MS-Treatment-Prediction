@@ -128,10 +128,10 @@ There are slight differences between males (M) and females (F)
 <img src="appendix/MS_EDSS_TYPE.png" width="500" />
 
 
-### Treatment Effectiveness Prediction
+## Treatment Effectiveness Prediction
 In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
 
-#### Factors that are associated with the effectiveness of treatment:
+### Factors that are associated with the effectiveness of treatment:
 - Lower initial disability (EDSS) is associated with better treatment outcomes.
 - The type of MS significantly influences treatment response.
 
@@ -147,7 +147,7 @@ In addition to predicting EDSS, the project also focused on identifying the most
   </tr>
 </table>
 
-#### EDSS Prediction
+### EDSS Prediction
 
 The primary goal was to predict the Expanded Disability Status Scale (EDSS) for MS patients using machine learning models. The EDSS is a crucial metric in assessing the severity of MS and guiding treatment decisions. Given the need for interpretable and clinically relevant models, a Decision Tree Regressor was selected as the primary model.
 
