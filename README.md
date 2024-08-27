@@ -84,12 +84,12 @@ The Expanded Disability Status Scale (EDSS), is commonly used to measure disabil
   <tr>
     <td>
       <table>
-        <img src="appendix/EDSS_cor.png" width="500" />
+        <img src="appendix/EDSS_cor.png" width="300" />
       </table>
     </td>
     <td>
       <table>
-        <img src="appendix/EDSS_cor_2.png" width="400" />
+        <img src="appendix/EDSS_cor_2.png" width="300" />
       </table>
     </td>
   </tr>
@@ -101,12 +101,12 @@ Higher lesion counts are associated with greater disability, while higher white 
   <tr>
     <td>
       <table>
-        <img src="appendix/EDSS_Lesion.png" width="500" />
+        <img src="appendix/EDSS_Lesion.png" width="400" />
       </table>
     </td>
     <td>
       <table>
-        <img src="appendix/EDSS_WB.png" width="400" />
+        <img src="appendix/EDSS_WB.png" width="300" />
       </table>
     </td>
   </tr>
