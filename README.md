@@ -144,8 +144,7 @@ The primary goal was to predict the Expanded Disability Status Scale (EDSS) for 
   - The model achieved a Root Mean Square Error (RMSE) of ±1.4, indicating reasonable predictive accuracy within the context of clinical variability.
 
 ### Treatment Effectiveness Prediction
-
-In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients. Various machine learning models were explored, including:
+In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
 
 #### Factors that are associated with the effectiveness of treatment:
 - Lower initial disability (EDSS) is associated with better treatment outcomes.
@@ -163,6 +162,7 @@ In addition to predicting EDSS, the project also focused on identifying the most
   </tr>
 </table>
 
+In order to predict Treatment effectiveness, various machine learning models were explored, including:
 1. **Decision Tree Classifier** Achieved the best performance with an F1 score of 0.72, making it the preferred model due to its interpretability and alignment with the task's low complexity.
 2. **Gradient Boosting** Provided competitive performance but with increased computational complexity.
 3. **Random Forest:** Offered robustness through ensemble learning but was prone to overfitting with smaller treatment subgroups.
