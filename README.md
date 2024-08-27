@@ -115,6 +115,19 @@ Higher lesion counts are associated with greater disability, while higher white 
 - Patients with lower initial EDSS scores (less disability) are more likely to respond positively to treatment.
 - The effectiveness of treatment appears to decrease as the level of disability increases.
 
+#### Generalized Linear Mixed Model
+
+MS Types:
+- RR has the lowest average EDSS scores, clustered around 3.5.
+- PPMS shows mid-range EDSS scores, around 5-5.5.
+- APMS has the highest EDSS scores, averaging around 6-6.5.
+
+Gender Differences:
+There are slight differences between males (M) and females (F)
+
+<img src="appendix/MS_EDSS_TYPE.png" width="500" />
+
+
 ### Treatment Effectiveness Prediction
 In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
 
