@@ -75,9 +75,9 @@ The Expanded Disability Status Scale (EDSS), is commonly used to measure disabil
 
 <img src="appendix/edss_grafic.png" width="500" alt="alt text">
 
-- EDSS (Expanded Disability Status Scale) and WB (White Blood cell count) have a strong negative correlation (-0.493), indicating that as EDSS increases, WB tends to decrease.
+- EDSS (Expanded Disability Status Scale) and WB have a strong negative correlation (-0.493), indicating that as EDSS increases, WB tends to decrease.
 - EDSS and Lesion have a moderate positive correlation (0.329), suggesting that higher EDSS scores are associated with more lesions.
-- WB and Lesion have a strong negative correlation (-0.537), implying that higher white blood cell counts are associated with fewer lesions.
+- WB and Lesion have a strong negative correlation (-0.537), implying that higher WB is associated with fewer lesions.
 - Age has weak correlations with other variables, with the strongest being a slight positive correlation with WB (0.145).
   
 <table>
@@ -95,7 +95,7 @@ The Expanded Disability Status Scale (EDSS), is commonly used to measure disabil
   </tr>
 </table>
 
-Higher lesion counts are associated with greater disability, while higher white blood cell counts are associated with lower disability.
+Higher lesion counts are associated with greater disability, while higher WB is associated with lower disability.
 
 <table>
   <tr>
