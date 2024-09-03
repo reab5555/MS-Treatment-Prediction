@@ -129,7 +129,6 @@ There are slight differences between males (M) and females (F)
 
 
 ## Treatment Effectiveness Prediction
-In addition to predicting EDSS, the project also focused on identifying the most effective treatment combinations for MS patients.
 
 ### Factors that are associated with the effectiveness of treatment:
 - Lower initial disability (EDSS) is associated with better treatment outcomes.
