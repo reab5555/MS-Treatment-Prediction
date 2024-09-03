@@ -9,7 +9,7 @@ This project aims to evaluate the effectiveness of various MS treatments using a
 ## Project Objectives
 
 1. **Evaluate the Effectiveness of MS Treatments:** Assess the impact of various treatment options on patient outcomes, focusing on the Expanded Disability Status Scale (EDSS) and response to treatment.
-2. **Develop Predictive Models:** Use machine learning to predict EDSS and treatment effectiveness based on patient demographics, MS type, and clinical characteristics.
+2. **Develop Predictive Models:** Use machine learning to predict treatment effectiveness based on patient demographics, MS type, and clinical characteristics.
 3. **Provide Insights for Personalized MS Management:** Analyze the data to provide actionable insights for healthcare providers to optimize treatment strategies for individual patients.
 
 ## Dataset Description
